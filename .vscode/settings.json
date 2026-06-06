@@ -1,3 +1,29 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:system"
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "liveServer.settings.ignoreFiles": [
+        "**/*.db",
+        "**/*.db-journal",
+        "**/*.db-wal",
+        "**/*.db-shm",
+        "**/__pycache__/**",
+        "**/*.pyc",
+        "**/.venv/**",
+        "**/*.py",
+        "**/*.txt",
+        "**/*.log",
+        "**/*.md",
+        "**/*.env",
+        "**/*.gitignore"
+    ],
+    "liveServer.settings.wait": 500,
+    "liveServer.settings.fullReload": false,
+    "files.watcherExclude": {
+        "**/.venv/**": true,
+        "**/__pycache__/**": true,
+        "**/*.db": true,
+        "**/*.db-journal": true,
+        "**/*.db-wal": true,
+        "**/*.db-shm": true,
+        "**/*.pyc": true
+    }
 }
